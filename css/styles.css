@@ -5,6 +5,26 @@
 @import url(bootstrap-theme.css.map);
 @import url(bootstrap.css.map);
 * 
+.info {
+    background: gray;
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.primary-color {
+    color: rebeccapurple;
+}
+
+.info h2 {
+    word-spacing: 0.6rem;
+}
+
+.info a {
+    transition: color 2s ease-in-out;
+}
+
+.info a:hover {
+    color: seagreen;
 }
