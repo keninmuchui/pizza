@@ -28,3 +28,12 @@ body {
 .info a:hover {
     color: seagreen;
 }
+
+#header {
+    min-height: 100vh - 94px;
+    background: url(https://bit.ly/2oUwthE);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
