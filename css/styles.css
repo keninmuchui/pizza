@@ -6,11 +6,11 @@
 @import url(bootstrap.css.map);
 * 
 .info {
-    background: gray;
+    background: burlywood;
 }
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+color: white;
 }
 
 .primary-color {
@@ -18,7 +18,7 @@ body {
 }
 
 .info h2 {
-    word-spacing: 0.6rem;
+    word-spacing: 9.6px;
 }
 
 .info a {
@@ -30,10 +30,25 @@ body {
 }
 
 #header {
-    min-height: 100vh - 94px;
-    background: url(https://bit.ly/2oUwthE);
+    min-height: calc(100vh - 94px);
+    background:  linear-gradient(rgba(8, 8, 8, 0.3),rgba(10, 10, 10, 0.3)), url(https://bit.ly/2oUwthE);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.height-90 {
+    min-height: calc(100vh - 94px);
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    border-top: 6px dotted whitesmoke;
+    border-bottom: 6px dotted whitesmoke;
+}
+
+.main-btn {
+   
 }
