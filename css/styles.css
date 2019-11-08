@@ -14,7 +14,7 @@ color: white;
 }
 
 .primary-color {
-    color: rebeccapurple;
+    color: rgb(51, 75, 153);
 }
 
 .info h2 {
@@ -22,20 +22,21 @@ color: white;
 }
 
 .info a {
-    transition: color 2s ease-in-out;
+    transition: color 1s ease-in-out;
 }
 
 .info a:hover {
-    color: seagreen;
+    color: green;
 }
 
 #header {
     min-height: calc(100vh - 94px);
-    background:  linear-gradient(rgba(8, 8, 8, 0.3),rgba(10, 10, 10, 0.3)), url(https://bit.ly/2oUwthE);
+    background:  linear-gradient(rgba(65, 64, 64, 0.3),rgba(92, 89, 89, 0.3)), url(https://bit.ly/2Cv32Wx);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .height-90 {
@@ -45,10 +46,19 @@ color: white;
 }
 
 .banner h1 {
-    border-top: 6px dotted whitesmoke;
-    border-bottom: 6px dotted whitesmoke;
+    border-top: 6px dotted white;
+    border-bottom: 6px dotted white;
 }
 
 .main-btn {
-   
+    color: #110609;
+    font-size: 32px;
+    border: 2px solid #03050a;
+    transition: all 1s ease-in-out;
+}
+
+.main-btn:hover {
+    color: red;
+    border: 2px solid;
+    background: honeydew;
 }
