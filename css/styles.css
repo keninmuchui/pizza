@@ -145,3 +145,8 @@ animation-fill-mode: forwards;
 .item-container:hover .item-img {
     transform: scale(1.2);
 }
+
+.item-container:hover {
+    outline: 10px solid crimson;
+    outline-offset: 1.2px;
+}
