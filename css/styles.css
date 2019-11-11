@@ -8,6 +8,7 @@
   background: burlywood;
 }
 body {
+  background: burlywood;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: white;
@@ -69,34 +70,12 @@ body {
   }
 } 
 
-.header-link {
-  display: inline-block;
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  background: rgb(237, 237, 250);
-  border-radius: 10px;
-  transition: all 2s ease;
-  /* animation: fromBottom;
-  animation-duration: 4s;
-  animation-iteration-count: infinite; */
+.main-btn {
+  color: #110609;
+  font-size: 32px;
+  border: 2px solid #03050a;
+  transition: all 1s ease-in-out;
 }
-
-/* .header-link:hover {
-  color: crimson;
-} 
-
-@keyframes fromBottom {
-  0% {
-    transform: translateY(-10px);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}  */
 
 .main-btn:hover {
   color: red;
@@ -106,7 +85,11 @@ body {
 
 #about {
   min-height: calc(40vh - 40px);
-  background: url(https://bit.ly/32GeSYV);
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  background-image: url(https://bit.ly/32GeSYV);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
