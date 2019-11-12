@@ -201,99 +201,14 @@
                       </div>
                     </div>
 
-                    <div class="col-md-6">
-                      <!-- <div class="card mt-1"> -->
-                      <div class="card-title d-inline-flex">
-                        <h3 class="p-4">View items in cart</h3>
-                        <i class="p-4 fa fa-shopping-cart total"
-                          ><button
-                            class="btn-success btn ml-2"
-                            value="0"
-                            id="quantity"
-                          >
-                            0
-                          </button></i
-                        >
-                      </div>
-                      <div class="card-body">
-                        <table id="table">
-                          <tr>
-                            <td>Type</td>
-                            <td>Size</td>
-                            <td>Crust</td>
-                            <td>Toppings</td>
-                            <td>Total Price</td>
-                          </tr>
-                        </table>
-
-                        <div id="cart">
-                          <img id="cart" src="./images/cart.svg" alt="" />
-                          <p class="text-center pt-4">
-                            You do not have any item in the cart
-                          </p>
-                        </div>
-
-                        <div id="items"></div>
-                        <a href="#order-section"></a>
-                        <div class="checkout">
-                          <button
-                            class="btn-success btn m-4"
-                            type="button"
-                            data-toggle="modal"
-                            data-target="#exampleModalCenter"
-                            id="gettotal"
-                          >
-                            Checkout
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="modal fade"
-                      id="exampleModalCenter"
-                      tabindex="-1"
-                      role="dialog"
-                      aria-labelledby="exampleModalCenterTitle"
-                      aria-hidden="true"
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      id="myModel"
+                      data-dismiss="modal"
                     >
-                      <div
-                        class="modal-dialog modal-dialog-centered"
-                        role="document"
-                      >
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h3 class="modal-title" id="exampleModalLongTitle">
-                              Confirm the price
-                            </h3>
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <p>
-                              Total amount for your order is ksh
-                              <span id="money" style="color: blue"></span>
-                            </p>
-                          </div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="btn btn-secondary"
-                              id="myModel"
-                              data-dismiss="modal"
-                            >
-                              Confirm checkout
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                      Confirm checkout
+                    </button>
 
                     <footer>
                       Copyright &copy; All rights reserved.
