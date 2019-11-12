@@ -52,7 +52,6 @@ body {
   animation: fromLeft;
   animation-duration: 4s;
   animation-delay: 2s;
-  opacity: 0;
   animation-fill-mode: forwards; 
 }
 
