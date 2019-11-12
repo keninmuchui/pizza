@@ -50,11 +50,11 @@ If you encounter any bug, feel free to contact me or provide solutions to fixing
 
 ## Contributing changes
 
-To contribute to changes, feel free to fork this project on github and clone it to your local repository. Use this link 
+To contribute to changes, feel free to fork this project on github and clone it to your local repository. Use this link https://github.com/keninmuchui/pizza
 
 ## Support and Contact details
 
-For any questions,feedback or comment please contact me via email: carolnyamburaireri@gmail.com
+For any questions,feedback or comment please contact me via email: keninmuchui@gmail.com
 
 ## Licence
 
