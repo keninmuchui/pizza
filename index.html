@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css?family=Mr+Dafoe"
     />
   </head>
+
   <body>
     <div class="container-fluid info p-3" id="top-icons">
       <div class="row">
@@ -60,7 +61,6 @@
           </div>
         </div>
       </div>
-
     </header>
 
     <!-- Section about us -->
@@ -69,26 +69,247 @@
         <section id="about">
           <h3>About Us</h3>
           <p>
-            At BabaTunde's Pizza Parlour, we don’t just make pizza. We make people’s days. BabaTunde's Pizza
-            Parlour was built on the belief that pizza night should be special, and
-            we carry that belief into everything we do. <br> What’s our purpose at
-            BabaTunde's Pizza Parlour? Moments of Excitement. All made possible by our flavor,
-            innovation and, most importantly, by unlocking potential in our team
-            members. <br />
+            At BabaTunde's Pizza Parlour, we don’t just make pizza. We make
+            people’s days. BabaTunde's Pizza Parlour was built on the belief
+            that pizza night should be special, and we carry that belief into
+            everything we do. <br />
+            What’s our purpose at BabaTunde's Pizza Parlour? Moments of
+            Excitement. All made possible by our flavor, innovation and, most
+            importantly, by unlocking potential in our team members. <br />
             With more than 55 years of experience under our belts, we understand
             how to best serve our customers through tried and true service
-            principles. <br> Instead of following trends, we set them. We create food
-            we’re proud to serve and deliver it fast, with a smile.We’re the
-            people who first delivered pizza to the State House. We put a pizza
-            in outer space. We took social media by storm. Our ordering app was
-            featured in a Samsung commercial. BabaTunde's Pizza Parlour stands for bold
+            principles. <br />
+            Instead of following trends, we set them. We create food we’re proud
+            to serve and deliver it fast, with a smile.We’re the people who
+            first delivered pizza to the State House. We put a pizza in outer
+            space. We took social media by storm. Our ordering app was featured
+            in a Samsung commercial. BabaTunde's Pizza Parlour stands for bold
             innovation.
           </p>
         </section>
       </div>
     </div>
-    <!-- section about us end -->
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+
+    <div class="row section3">
+      <div class="col-md-12 text" id="menu">
+        <h1>Our Menu</h1>
+        <hr />
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-md-4 mt-4 text-center">
+        <div class="card">
+          <div class="card-title">
+            <p><strong>Beef BBQ pizza</strong></p>
+            <p>
+              Serving roast beef and gravy pizza. The pizza features slices of
+              roast beef drizzled with gravy and also comes topped with spinach,
+              mushroom, and cherry tomatoes.
+            </p>
+            <br />
+          </div>
+          <div class="card-body">
+            <img src="./images/beef.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4 text-center">
+        <div class="card">
+          <div class="card-title">
+            <p><strong>Vegetable pizza</strong></p>
+            <p>
+              This cold vegetable pizza is the ultimate party appetizer for
+              summer potlucks. With a fresh baked crust, creamy ranch spread,
+              and crunchy fresh veggies, everyone will be coming back.
+            </p>
+            <br />
+          </div>
+          <div class="card-body">
+            <img src="./images/vegetable.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4 text-center">
+        <div class="card">
+          <div class="card-title">
+            <p><strong> Chicken BBQ pizza</strong></p>
+            <p>
+              Chicken, sweet Italian sausage, cremini mushrooms, fontina cheese,
+              and sliced red bell pepper are just a few of the ingredients we
+              used to dress this dish up.
+            </p>
+            <br />
+          </div>
+          <div class="card-body">
+            <img src="./images/chicken.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <div class="row" id="mk-order">
+      <div class="col-md-12">
+        <div id="order-section">
+          <h1 class="text-center pt-4">Make your order</h1>
+          <div class="alert alert-success mt-2" id="success">
+            <strong>Thankyou for chosing Yummy Pizzas!</strong> Your order will
+            be delivered to your location in
+            <span
+              style="color: blue; font-size:18px"
+              id="place"
+              style="color: blue"
+            ></span>
+            the Fee for a delivery is ksh 250. Your total amount to be paid is
+            ksh: <span id="finalprice" style="color: blue"></span>.
+          </div>
+          <div class="alert alert-success" id="no-delivery">
+            <strong>Thankyou for choosing Yummy Pizzas!</strong>Your order is
+            ready for pickup. Total amout to pay ksh:
+            <span id="no-location" style="color: blue"></span>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <card-title>
+                  <h3 class="pt-4 pl-5">Please make your order below</h3>
+                </card-title>
+                <div class="card-body">
+                  <form id="myform">
+                    <div class="form-group">
+                      <label for="pizza-type">Type of pizza</label>
+                      <select class="form-control" id="pizza-type">
+                        <option value="beef">Beef BBQ pizza</option>
+                        <option value="vegetable">Vegetable pizza</option>
+                        <option value="chicken"> Chicken BBQ pizza</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="pizza-size">Size of pizza</label>
+                      <select class="form-control" id="pizza-size">
+                        <option value="small">Small--@ksh 700</option>
+                        <option value="medium">Medium--@ksh 900</option>
+                        <option value="large"> Large --@ ksh 1200</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="pizza-crust"
+                        >Please choose your preferred crust</label
+                      >
+                      <select class="form-control" id="pizza-crust">
+                        <option value="crispy">Crispy--@ ksh 200</option>
+                        <option value="stuffed">Stuffed--@ ksh 200</option>
+                        <option value="gluten-free">
+                          Gluten-free--@ ksh 150</option
+                        >
+                      </select>
+                    </div>
+                    <p>Toppings</p>
+                    <div class="toppings">
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="bacon"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1"
+                          >Bacon @ ksh 150 for large,@ ksh 100 for medium,@ ksh
+                          50 for small</label
+                        >
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="mushrooms"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2"
+                          >mushrooms @ ksh 150 for large,@ ksh 100 for medium,@
+                          ksh 50 for small</label
+                        >
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox2"
+                          value="onions"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox2"
+                          >Onion @ ksh 150 for large,@ ksh 100 for medium,@ ksh
+                          50 for small</label
+                        >
+                      </div>
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn-success btn mt-3"
+                      id="orderbtn"
+                    >
+                      <div
+                        class="modal fade"
+                        id="exampleModalCenter"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="exampleModalCenterTitle"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="modal-dialog modal-dialog-centered"
+                          role="document"
+                        >
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3
+                                class="modal-title"
+                                id="exampleModalLongTitle"
+                              >
+                                Confirm the price
+                              </h3>
+                              <button
+                                type="button"
+                                class="close"
+                                data-dismiss="modal"
+                                aria-label="Close"
+                              >
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>
+                                Total amount for your order is ksh
+                                <span id="money" style="color: blue"></span>
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button
+                                type="button"
+                                class="btn btn-secondary"
+                                id="myModel"
+                                data-dismiss="modal"
+                              >
+                                Confirm checkout
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <footer>
+                        Copyright &copy; All rights reserved.
+                      </footer>
+                      <script src="js/jquery-3.3.1.js"></script>
+                      <script src="js/scripts.js"></script>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
