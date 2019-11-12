@@ -8,7 +8,7 @@ This is website for BabaTunde's Pizza Parlour. It allows customers to order pizz
 
 #### Deploying
 
-To view this project, please use this live link. 
+To view this project, please use this live link. https://keninmuchui.github.io/pizza/
 
 ## BDD
 
